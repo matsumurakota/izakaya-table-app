@@ -1,0 +1,9 @@
+{
+  "name": "居酒屋 卓管理",
+  "short_name": "卓管理",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#333333",
+  "icons": []
+}
