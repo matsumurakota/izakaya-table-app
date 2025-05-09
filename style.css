@@ -10,20 +10,9 @@ header, footer {
   padding: 1em;
 }
 #table-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-  gap: 10px;
-  padding: 1em;
+  padding: 10px;
 }
-.table {
-  border: 1px solid #aaa;
-  padding: 1em;
-  text-align: center;
-  background: lightblue;
-}
-.table.利用中 {
-  background: tomato;
-}
-.table.予約席 {
-  background: lightgreen;
+button {
+  margin: 3px;
+  font-size: 1rem;
 }
