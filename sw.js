@@ -2,5 +2,5 @@ self.addEventListener('install', function(e) {
   console.log('Service Worker installed');
 });
 self.addEventListener('fetch', function(e) {
-  // Cache logic if needed
+  // You can implement caching here if needed
 });
