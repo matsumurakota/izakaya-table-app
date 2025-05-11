@@ -1,3 +1,4 @@
+
 // main.js: 一から再構築された卓管理システム（PWA対応）
 
 class Table {
@@ -193,3 +194,8 @@ function showHistory() {
   modal.innerHTML = content + '<button onclick="this.parentElement.remove()">閉じる</button>';
   document.body.appendChild(modal);
 }
+
+window.onload = () => {
+  loadTables();
+  renderTables();
+};
